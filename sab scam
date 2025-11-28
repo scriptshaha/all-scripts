@@ -1,3 +1,4 @@
+print("executed fine")
 rbxname = "DOXIONTINTER342"
 local prefix = ":"
 local LPlayer = game.Players.GeorgeGaming6063_YT
