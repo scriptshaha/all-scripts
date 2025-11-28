@@ -1,5 +1,5 @@
 rbxname = "DOXIONTINTER342"
-local prefix = "."
+local prefix = ":"
 local LPlayer = game.Players.GeorgeGaming6063_YT
 speed = 1 --how fast tweengoto is 
 render1 = false --if alts auto unrender when excuted
@@ -12,7 +12,7 @@ resettime = 5.4 --how long it will take to teleport alts back to cordinates nocl
 --unsit unsits alts
 --rs resets alts
 --fling excutes fling scripts on alts remeber to use account for lag
---k makes alts leave 
+--leave makes alts leave 
 --float floats alts
 --unfloat unfloats alts
 --say makes alts say message
@@ -77,7 +77,7 @@ p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
 		if cmd == "fling" then
 		    loadstring(game:HttpGet('https://files.shade4real.net/flinger.txt'))()
     end
-		if cmd == "k" then
+		if cmd == "leave" then
 		    game:Shutdown()
     end
         if cmd == "float" then
