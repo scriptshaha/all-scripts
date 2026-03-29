@@ -1,4 +1,3 @@
---// 91ms Notifier (Fixed High-Speed Auto-Hop)
 repeat task.wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 --// CONFIG
